@@ -6,7 +6,7 @@ const PORT = 3000;
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello from DevOps CI/CD Pipeline Updated",
+   message: "Hello from Updated CI/CD Pipeline 🚀",
     status: "running"
   });
 });
